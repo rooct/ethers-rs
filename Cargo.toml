@@ -15,7 +15,7 @@ exclude = [
     "**/tests/",
     "**/test-data/",
     "**/testdata/",
-    "examples",
+    # "examples",
     "scripts/",
 ]
 
@@ -43,7 +43,7 @@ members = [
     "ethers-solc",
 
     # Example crates
-    "examples/*",
+    # "examples/*",
 ]
 
 # Do not include example crates in default members
